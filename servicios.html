@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Nuestros servicios de arquitectura e ingeniería: Gerencia de proyectos, Mantenimiento de fachadas, Diagnósticos técnicos y Sistemas de contratación.">
+    <title>Servicios - GIB Promotores SAS</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- 1. Header & Navigation -->
+    <header class="main-header">
+        <div class="container header-container">
+            <div class="header-left">
+                <a href="index.html" class="logo">GIB</a>
+            </div>
+
+            <div class="header-right">
+                <nav id="main-nav">
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="servicios.html" class="active">Servicios</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="index.html#trayectoria">Experiencia</a></li>
+                    </ul>
+                    <a href="index.html#contacto" class="btn btn-primary btn-mobile-cta">Agendar Reunión</a>
+                </nav>
+
+                <a href="index.html#contacto" class="btn btn-primary">Agendar Reunión</a>
+
+                <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Abrir menú">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Nuestros Servicios</h1>
+            <p>Soluciones integrales de construcción y arquitectura con control financiero estricto.</p>
+        </div>
+    </section>
+
+    <!-- Servicios Section -->
+    <section id="servicios" class="services-section bg-light">
+        <div class="container">
+            <div class="services-split-layout">
+                <!-- Left Column: Unified Card -->
+                <div class="service-unified-card">
+                    <div class="unified-card-header">
+                        <span class="selection-label">Seleccionar servicio:</span>
+                        <div class="compact-select-wrapper">
+                            <select id="service-selector" class="compact-select">
+                                <option value="gerencia-proyectos">Gerencia de Proyectos Inmobiliarios</option>
+                                <option value="mantenimiento-fachadas">Mantenimiento y Asesoría de Fachadas</option>
+                                <option value="diagnosticos-tecnicos">Diagnósticos Técnicos y Asesorías</option>
+                                <option value="sistemas-contratacion">Sistemas de Contratación</option>
+                                <option value="project-management">Project Management</option>
+                                <option value="consultoria-especializada">Consultoría Especializada</option>
+                                <option value="monitoring">Monitoring (Monitoreo Continuo)</option>
+                                <option value="purchasing">Purchasing (Compras Estratégicas)</option>
+                                <option value="debidas-diligencias">Debidas Diligencias Técnicas</option>
+                                <option value="gestion-costos">Gestión de Costos</option>
+                                <option value="asesoria-leed">Asesoría LEED y Sostenibilidad</option>
+                                <option value="puesta-en-marcha">Puesta en Marcha</option>
+                                <option value="supervision-tecnica">Supervisión Técnica</option>
+                                <option value="remodelacion-total">Remodelación Total</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div id="service-body" class="unified-card-body">
+                        <!-- Dynamic content injected via JS -->
+                        <div class="loader-placeholder">Cargando detalles del servicio...</div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Banner -->
+                <div class="service-side-banner" id="service-side-banner">
+                    <div class="banner-overlay"></div>
+                    <div class="banner-content" id="service-banner-content">
+                        <span class="banner-tag" id="service-banner-tag">Excelencia GIB</span>
+                        <h2 id="service-banner-title">Comprometidos con la Calidad</h2>
+                        <p id="service-banner-desc">Transformamos visiones en realidades tangibles con precisión técnica
+                            y control financiero
+                            riguroso.</p>
+                        <ul class="banner-features">
+                            <li>Control de costos</li>
+                            <li>Eficiencia operativa</li>
+                            <li>Sostenibilidad</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Footer -->
+    <footer id="contacto" class="main-footer">
+        <div class="container footer-container">
+            <div class="footer-hero-section text-center">
+                <h2 class="footer-hero-text">Hagamos realidad su próximo proyecto</h2>
+            </div>
+            <hr class="footer-divider">
+
+            <div class="footer-content-grid contact-hierarchy">
+                <!-- Col 1: Brand -->
+                <div class="footer-col brand-col">
+                    <div class="footer-logo">GIB</div>
+                    <div class="footer-tagline">PROMOTORES SAS</div>
+                    <p class="footer-desc">Unificamos la arquitectura y la ingeniería para ofrecer soluciones eficientes
+                        en el sector institucional, comercial y residencial.</p>
+                </div>
+
+                <!-- Col 2: Priority Contact -->
+                <div class="footer-col contact-list-col">
+                    <h3>Puntos de Contacto</h3>
+                    <ul class="contact-ranked-list">
+                        <li>
+                            <span class="contact-rank">1.</span>
+                            <a href="#" class="contact-link" rel="noopener noreferrer">Oficina Virtual (LinkedIn)</a>
+                        </li>
+                        <li>
+                            <span class="contact-rank">2.</span>
+                            <a href="#" class="contact-link">Formulario de Licitación / Cotización</a>
+                        </li>
+                        <li>
+                            <span class="contact-rank">3.</span>
+                            <a href="mailto:gibpromotoressas@gmail.com"
+                                class="contact-link">gibpromotoressas@gmail.com</a>
+                        </li>
+                        <li>
+                            <span class="contact-rank">4.</span>
+                            <span class="contact-text">Reunión Presencial (Bogotá, Colombia)</span>
+                        </li>
+                    </ul>
+                    <a href="https://wa.me/573103230330" class="btn btn-outline footer-wa-btn" target="_blank"
+                        rel="noopener noreferrer">WhatsApp Corporativo secundario</a>
+                </div>
+
+                <!-- Col 3: Navigation -->
+                <div class="footer-col nav-col">
+                    <h3>Navegación</h3>
+                    <ul class="footer-nav">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="index.html#trayectoria">Experiencia</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom text-center">
+                <p>&copy; 2026 GIB Promotores SAS. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
